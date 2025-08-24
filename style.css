@@ -1,0 +1,191 @@
+ header {
+            background-color: var(--secondary-bg);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+ }
+
+ .logo a {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+ }
+
+ nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+ }
+
+ :root {
+            --primary-bg: #1a1a1a;
+            --secondary-bg: #222;
+            --text-color: #f0f0f0;
+            --accent-color: #ff3366; /* Vibrant accent color */
+            --font-main: 'Helvetica Neue', Arial, sans-serif;
+            --font-headline: 'Oswald', sans-serif; /* A bold, edgy sans-serif */
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--primary-bg);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            font-family: var(--font-headline);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-color);
+        }
+
+        h1 { font-size: 2.5em; }
+        h2 { font-size: 2em; }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+
+        
+        header {
+            background-color: black;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #000000;
+        }
+
+        .logo a {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            font-weight: bold;
+        }
+        
+        /* --- Hero Banner --- */
+        .hero {
+            position: relative;
+            height: 60vh;
+            background: url('https://via.placeholder.com/1500x800/111/f0f0f0?text=New+Releases+Banner') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 10px;
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            margin: 0 0 10px;
+            color: #fff;
+        }
+        
+        .hero p {
+            font-size: 1.2em;
+            margin: 0 0 20px;
+        }
+        
+        .hero .btn {
+            background-color: var(--accent-color);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .hero .btn:hover {
+            background-color: #d12e5a;
+        }
+        
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px 0;
+        }
+
+        .product-card {
+            background-color: var(--secondary-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .product-info {
+            padding: 15px;
+        }
+
+        .product-info h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: var(--text-color);
+        }
+        
+        .product-info p {
+            margin: 5px 0 15px;
+            font-size: 1.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        
+        footer {
+            background-color: var(--secondary-bg);
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid #333;
+        }
